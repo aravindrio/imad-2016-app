@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-	margin: 0px;
+	margin:0px;
 	}
 	
 td {
@@ -132,7 +132,8 @@ aside h3 {
 	}
 	
 .smallText {
-	font: 20 px Arial, Helvetica, sans-serif;
+	font-width: 20 px;
+	font-style:  Arial, Helvetica, sans-serif;
 	color: #666666;
 	line-height: 22px;
 	}
