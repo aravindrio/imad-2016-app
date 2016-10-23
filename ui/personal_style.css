@@ -132,8 +132,7 @@ aside h3 {
 	}
 	
 .smallText {
-	font-width: 20 px;
-	font-style:  Arial, Helvetica, sans-serif;
+	font: 20 px Arial, Helvetica, sans-serif;
 	color: #666666;
 	line-height: 22px;
 	}
