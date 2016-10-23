@@ -1,66 +1,120 @@
-<!doctype html>
 <html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-		<style>
-		  body { background-color : #34675C;}
-		  div#pagewrap {
-		    width: 10%;
-		    float: left;
-			margin: 30px;
-			margin-top: 70px;
-			border: 1;
-			border-color: #ffffff;
-			padding: 1;
-		
-		  }
-		  .center {
-		    font-family: sans-serif;;
-			color: #ffffff;
-			//width:75%;
-		  }
-		  aside {
-		    width : 10%;
-			float : right;
-			margin-right: 5;
-			margin-top: 0;
-			margin-right:1;
-			padding: 1.5em;
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Home Page</title>
+<!--
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> -->
+<link rel="stylesheet" href="personal_style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<script language="javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+</script>
+<style type="text/css">
+<!--
+.style3 {color: #FFFFFF}
+.style4 {
+	color: #FF0000;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style6 {font-size: 16px}
+.style8 {
+	font-size: 16px;
+	color: #5c821a;
+}
+.style10 {font-family: "Times New Roman", Times, serif; font-size: 16px; }
+.style15 {color: #000b29}
+.style16 {font-family: "Times New Roman", Times, serif; font-size: 18px; color: #000b29; }
+.style17 {font-size: 18px; color: #000b29; }
+-->
+</style></head>
+<body bgcolor="#F4FFE4">
+<img src="mm_spacer.gif" alt="" width="50" height="1" border="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#000000">
+    <td colspan="3" rowspan="2"><img src="images/eminem_2.jpg" alt="Header image" width="391" height="231" border="0"></td>
+    <td height="41" colspan="3" id="logo" valign="bottom" align="center" nowrap><p>Personal Blog of Aravind Rio </p>    </td>
+    <td width="4">&nbsp;</td>
+  </tr>
+
+  <tr bgcolor="#000000">
+    <td height="178" colspan="3" id="tagline" valign="top" align="center"><p>&nbsp;</p>
+    <p class="style8">This is my first blog and I hope yo like it Guys.......</p>
+    <p class="style8"> Iwill be giving you guys some coding techniques and some sick songs of mine...... </p>    </td>
+	<td width="4">&nbsp;</td>
+  </tr>
+
+ 
+  <tr bgcolor="#99CC66">
+  	<td height="18" colspan="7" bgcolor="#000000" id="dateformat">&nbsp;&nbsp;
+    <script language="javascript">
+      document.write(TODAY);	</script>
+    <span class="style3" id="title"><marquee loop="-1" scrollamount="3" width="100%" style="background-color: #000000; width: 200%;"><big>Thank you for visting my page and have a nice time here......................
+    </marquee></span></td>
+  </tr>
+ 
+
+ 
+  <tr>
+    <td width="224" valign="top" bgcolor="#000000">
+	<table border="0" cellspacing="0" cellpadding="0" width="225" id="navigation" bgcolor="#000000">
+		<br>
+		<tr>
+          <td width="225"><a href="/article-one" class="navText">Article-one</a></td>
+        </tr>
+        <tr>
+          <td width="225"><a href="/article-two" class="navText">Article-two</a></td>
+        </tr>
+        <tr>
+          <td width="225"><a href="/article-three" class="navText">Article-three</a></td>
+        </tr>
+        <tr>
+          <td width="225"><a href="javascript:;" class="navText">Article-four</a></td>
+        </tr>
+        <tr>
+          <td width="225" height="35"><a href="javascript:;" class="navText ">Help</a></td>
+        </tr>
+    </table> 	</td> 
+	
+   <td width="166"><div align="right"></div></td> 
+   <td colspan="2" align="left" valign="top"><img src="mm_spacer.gif" alt="" width="305" height="1" border="0"><br>
+	&nbsp;<br>
+	&nbsp;<br>
+	
+	<table border="0" cellspacing="0" cellpadding="0" width="366">
+        <tr>
+          <td width="366" class="pageName"><span class="style4">About this Blog and me </span></td>
+		</tr>
+
+		<tr>
+          <td class="bodyText"><p class="style6">&nbsp;</p>
+            <p class="style6">Hi Guys. I am Aravind and I'm currently doing my third year in B.tech-IT. I am not much of a geek in Computer Science, but guys I can tell some great stuffs that I know. Also, you migtht have noticed eminems pic at the top left of this page. Yeah guys you guessed it right. I am a Stan. </p>
+            <p class="style6">And to add some spice regarding my music I've to tell you a lot. I write rap verses when I am free and do some crazy freestyles that I warn you not to hear, atleast for now. Just kidding that's not that bad.</p>
+            <p class="style6">Ok, lets now come to this blog. This blog is done for my web-app project to create a website using databases. During this course I have learned a lot about webapps and technologies used for web creation. </p></td>
+        </tr>
+      </table>
+	 <br>
+	&nbsp;<br>	</td>
+    <td width="68"><img src="mm_spacer.gif" alt="" width="50" height="1" border="0"></td>
 			
-		  }
-		</style>
-    </head>
-    <body>
-	    <div>
-		<center>
-	    <a href="">Home</a>
-		<a href="/article-one">Food</a>
-		<a href="/article-two">Books</a>
-		<a href="/article-three">Movie</a>
-		<a href="/">Music</a>
-		</center>
-		</div>		
-	    <div align = "center">
-        <div class="image">
-        <!--    <img src="/ui/madi.png" class="img-medium"/> -->
-		<div id="pagewrap">
-		  <img src="../photo.jpg" class="img-medium" width= "250 * 150">
-        </div>
-        <br />
-		<aside>
-		    <menu><b><u>Category</u></b></menu>
-		    <menu><a href="/article-one">Favorite Foods</a></menu>
-			<menu><a href="/article-two">Favorite Boks</a></menu>
-			<menu><a href="/article-three">Favorite Movies</a></menu>
-			<menu><a href="/article-one">Favorite Music</a></menu>
-		 </aside>
-        <div class="center">
-          <h1>  Personal Blog of <em>Aravind</em>.</h1>
-        </div>
-		</div>
+        <td width="439" valign="top"><br>
+		&nbsp;<br>
 		
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-        </div>
-    </body>
+		<aside>		
+		<img src="images/mypic.jpg" alt="Aravind" width="180" height="240" />
+		<h5>Aravind R</h5>		
+		<h3>For contact:</h3>
+		<p>E-Mail:<a href="mailto:aravind.gtr@gmail.com">aravind.gtr@gmail.com</a><br>
+			Facebook:<a> Aravind Rhon Mathers	</a></p>
+		</aside>
+		</td>
+  </tr> 
+</table>
+</body>
 </html>
